@@ -3,7 +3,6 @@ require("@nomicfoundation/hardhat-verify")
 require("hardhat-gas-reporter")
 require("solidity-coverage")
 require("hardhat-deploy")
-require("hardhat-contract-sizer")
 require("dotenv").config()
 
 /** @type import('hardhat/config').HardhatUserConfig */
@@ -41,6 +40,6 @@ module.exports = {
     token: "ETH",
   },
   mocha: {
-    timeout: 300000, // 200 seconds max
+    timeout: 200000, // 200 seconds max
   },
 }
