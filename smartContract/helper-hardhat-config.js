@@ -6,8 +6,9 @@ const networkConfig = {
   },
   31337: {
     name: "hardhat",
+    ethUsdPriceFeed: "0x694AA1769357215DE4FAC081bf1f309aDC325306",
   },
-};
+}
 
 const INITIAL_SUPPLY = "21000000000000000000000" // 21 million
 const developmentChains = ["hardhat", "localhost"];
